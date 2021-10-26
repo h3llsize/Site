@@ -1,0 +1,201 @@
+* {
+    
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.circle {
+    fill: #ffffff00;
+    stroke: white;
+    stroke-width: 0.1875em;
+    width: 10px;
+    height: 15px;
+  }
+
+.first {
+    background: url(../img/SSSSS.png);
+    background-size: cover;
+    position: relative;
+}
+
+.first-header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    transition: 1s background, .2s transform;
+    font-size: 15px;
+    font-family: 'Poppins';
+
+    padding: 10px;
+    background: transparent;
+    border-radius: 45%;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+}
+
+.btn:hover:focus {
+    background: #000;
+}
+.btn:active {
+    transform: scale(0.95);
+}
+
+.first-body {
+    justify-content: center;
+    display: flex;
+    padding: 80px 250px;
+}
+
+.list {
+    display: flex;
+    align-items: center;
+
+}
+
+.text {
+    font-weight: 400;
+    color: #757575;
+    text-align: center;
+}
+
+.item:not(:last-child) {
+    margin-right: 25px;
+}
+
+.link {
+    color: white;
+}
+
+.item {
+    font-weight: 500;
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+    font-size: 24px;
+    color: black;
+    opacity: 0;
+    transform: none;
+    animation: header 1s ease .25s forwards;
+}
+
+.item {
+    opacity: 0;
+    transform: none;
+    animation: header 1s ease .25s forwards;
+  
+}
+
+
+.item:nth-child(2) {
+    animation: header 1s ease .35s forwards;
+}
+.item:nth-child(3) {
+    animation: header 1s ease .45s forwards;
+}
+.item:nth-child(4) {
+    animation: header 1s ease .55s forwards;
+}
+
+@keyframes header {
+    0% {
+      opacity: 0;
+      transform: translateY(vw(30));
+      margin-top: 50px;
+    }
+  
+    100% {
+      opacity: 1;
+      transform: none;
+      margin-top: 0px;
+    }
+  }
+
+.link {
+    transition: color 0.8s, text-shadow 0.8s;
+}
+.link:after {
+    content: '';
+    display: block;
+    background: #ffffff;
+    height: 1px;
+    width: 0%;
+    transition: width 0.8s, opacity 0.8s, box-shadow 0.8s; /* для плавного изменения ширины, прозрачности, тени(свечения) */
+}
+.link:hover {
+    text-shadow: 0 0 16px rgba(255, 255, 255, 0.64);
+}
+
+.link:hover:after {
+    width: 100%;
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.88);
+}
+
+.link:after {
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.third {
+    background: url(../img/gachi.jpg);
+    background-size: cover;
+    height: 900px;
+    color:#fff;
+}
+
+.third-text {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}
+
+.third-desc {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: 'Poppins';
+}
+
+.btn-third {
+    font-size: 25px;
+    font-family: 'Poppins';
+
+    transition: .2s transform, 1s background;
+
+    cursor: pointer;
+    padding: 10px;
+    background: transparent;
+    border-radius: 45%;
+    border: 1px solid;
+    color: rgb(255, 255, 255);
+  }
+
+  
+.btn-third:hover:focus {
+    background: #000;
+}
+
+.btn-third:active {
+    transform: scale(0.95);
+}
+
+.fourth-text {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'Poppins';
+}

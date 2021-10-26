@@ -1,0 +1,69 @@
+.second-header {
+    padding: 50px 200px;
+}
+.second-body {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-bottom: 80px;
+}
+
+.first {
+    height: 762px;
+}
+
+.third-header {
+    margin-top: 30px;
+    height: auto;
+    padding: 30px;
+}
+
+.third-text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.third {
+    padding: 0 20px;
+    position: relative;
+
+}
+
+.third-desc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn-third {
+    height: 60px;
+    width: 180px;
+    position: absolute;
+    left: 50%;
+    bottom: 35px;
+    margin-left: -90px;
+}
+
+.btn {
+    height: 60px;
+    width: 180px;
+    position: absolute;
+    left: 50%;
+    bottom: 35px;
+    margin-left: -100px;
+}
+
+.fourth {
+    padding-top: 30px;
+    height: 980px;
+    position: relative;
+
+    align-items: center;
+}
+
+.fourth-header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
